@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Migsun Vilaasa</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawesome link  -->
+    <!-- <script src="https://kit.fontawesome.com/45a593607e.js" crossorigin="anonymous"></script> -->
+    <script
+      src="https://kit.fontawesome.com/2a39b0afc8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="font-[Poppins] ">
+    <!-- header-section  -->
+    <header class="bg-white py-2 shadow-md header">
+      <div class="container mx-auto px-4">
+        <div class="flex items-center justify-between ">
+          <!-- Logo -->
+          <div class="flex items-center space-x-5">
+            <img
+              src="./image/migsun-vilaasa-logo.png"
+              alt="Logo"
+              class="h-13"
+            />
+          </div>
+
+          <!-- Navbar links -->
+          <nav class="hidden md:flex space-x-6">
+            <a href="#" class="text-gray-700 hover:text-yellow-500">HOME</a>
+            <a href="#floorplan" class="text-gray-700 hover:text-yellow-500"
+              >FLOOR PLAN & DETAILS</a
+            >
+            <a href="#slider-container" class="text-gray-700 hover:text-yellow-500">GALLERY</a>
+            <a href="#" class="text-gray-700 hover:text-yellow-500"
+              >SPECIFICATIONS</a
+            >
+            <a href="#" class="text-gray-700 hover:text-yellow-500"
+              >E-BROCHURE</a
+            >
+          </nav>
+
+
+          <!-- Contact Button -->
+          <div class="hidden md:block">
+            <a
+              href="tel:+917289838838"
+              class="bg-yellow-400 text-black py-2 px-4 rounded-lg"
+            >
+              +91-9953-213-254
+            </a>
+          </div>
+
+          <!-- Mobile menu button -->
+          <div class="md:hidden flex items-center">
+            <button id="menu-btn" class="text-gray-700 focus:outline-none">
+              <svg
+                class="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16"
+                ></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="hidden md:hidden">
+        <nav class="flex flex-col space-y-2 py-4">
+          <a href="#" class="text-gray-700 hover:text-yellow-500">HOME</a>
+          <a href="#" class="text-gray-700 hover:text-yellow-500"
+            >FLOOR PLAN & DETAILS</a
+          >
+          <a href="#" class="text-gray-700 hover:text-yellow-500">GALLERY</a>
+          <a href="#" class="text-gray-700 hover:text-yellow-500"
+            >SPECIFICATIONS</a
+          >
+          <a href="#" class="text-gray-700 hover:text-yellow-500">E-BROCHURE</a>
+          <a
+            href="tel:+917289838838"
+            class="bg-yellow-400 text-black py-2 px-4 rounded-lg text-center"
+          >
+            +91-7289-838-838
+          </a>
+        </nav>
+      </div>
+    </header>
+    <!-- hero-section  -->
+    <section
+      class="relative bg-cover bg-center"
+      style="
+        background-image: url('./image/swarnarekha-pandey-WYGKVY-ddHE-unsplash.jpg');
+        min-height: 100vh;
+      "
+    >
+      <!-- Overlay -->
+      <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+
+      <div
+        class="relative z-10 container mx-auto px-6 py-12 flex flex-col lg:flex-row items-center justify-between"
+      >
+        <!-- Text Section -->
+        <div
+          class="text-[#FCCD2A] p-6 rounded-lg text-center lg:text-left space-y-6  backdrop-blur-sm bg-white/20"
+        >
+          <img
+            src="https://via.placeholder.com/150x50.png?text=Migsun+Logo"
+            alt="Logo"
+            class="mx-auto lg:mx-0"
+          />
+          <h1 class="text-4xl lg:text-6xl font-bold">WHY PAY RENT?</h1>
+          <p class="text-xl lg:text-2xl">Your dream home is now at</p>
+          <div class="text-5xl font-bold">₹75 Lakh*</div>
+          <p class="text-lg lg:text-xl">Ready to Move in 2/3 BHK Apartments</p>
+          <p class="text-lg lg:text-xl">ETA 2 and Omicron 3, Greater Noida</p>
+        </div>
+
+        <!-- Form Section -->
+        <div class="mt-8 lg:mt-0 lg:w-1/3 bg-white rounded-lg shadow-lg p-6">
+          <h2 class="text-center text-2xl font-semibold text-gray-900 mb-6">
+            GET IN TOUCH !!
+          </h2>
+          <form action="#" method="POST" class="space-y-4">
+            <div>
+              <input
+                type="text"
+                name="name"
+                placeholder="Name"
+                class="w-full px-4 py-2 border border-gray-300 rounded-lg"
+              />
+            </div>
+            <div>
+              <input
+                type="email"
+                name="email"
+                placeholder="Email"
+                class="w-full px-4 py-2 border border-gray-300 rounded-lg"
+              />
+            </div>
+            <div>
+              <input
+                type="tel"
+                name="phone"
+                placeholder="Phone"
+                class="w-full px-4 py-2 border border-gray-300 rounded-lg"
+              />
+            </div>
+            <div>
+              <textarea
+                name="query"
+                placeholder="Query"
+                rows="3"
+                class="w-full px-4 py-2 border border-gray-300 rounded-lg"
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="w-full bg-yellow-500 text-white px-4 py-2 rounded-lg font-semibold hover:bg-yellow-600 transition"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- content section  -->
+    <section class="border-solid border-4 border-red-500 bg-[#b7e0ff]">
+      <!-- Section for Project Description -->
+      <section class="container mx-auto px-4 py-12 text-gray-700">
+        <div class="text-center">
+          <h1 class="text-3xl font-bold text-gray-900 mb-4">Migsun Vilaasa</h1>
+          <hr class="w-16 mx-auto border-yellow-500 mb-8" />
+        </div>
+
+        <!-- Project Description Text -->
+        <div class="space-y-6 text-justify lg:text-left text-[#000]">
+          <p>
+            Migsun Vilaasa, a luxury residential development in Eta 2, Greater
+            Noida, is proud to present ready-to-move-in 2/3 BHK dream home
+            apartments fully loaded with modern amenities. The project welcomes
+            residents and wishful real estate buyers to another part of renowned
+            proximity to world-class hospitals, international schools,
+            engineering colleges, airports, and other state-of-the-art social
+            and commercial landmarks. This is being engineered and developed
+            using world-class civil architecture and engineering tools. These
+            would be a future residence that would embrace the cultural richness
+            and prosperity of people together. It would mingle luxury lifestyle
+            with the modern conveniences available around Greater Noida where
+            residents will live harmoniously with the city's artistic natural
+            views.
+          </p>
+          <p>
+            Migsun Vilaasa Eta 2, Greater Noida is ready to offer feature-packed
+            2/3bhk apartments loaded with modern amenities such as a swimming
+            pool, skating rink, playground, community hall, clubhouse, games &
+            sports facility, grassland, flower park, jogging and running track,
+            water park, indoor games, rock climbing, wellness center, and many
+            more. Our luxurious three-bedroom tri-deck residences provide the
+            ideal balance of coziness, practicality, and design. The project
+            provides easy access to the Yamuna Expressway and a convenient
+            commute to the Delhi NCR areas.
+          </p>
+        </div>
+      </section>
+
+      <!-- Amenities Section -->
+      <section class="bg-white py-12">
+        <div
+          class="container mx-auto grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 gap-8 text-center"
+        >
+          <div class="space-y-2">
+            <i class="fa-solid fa-person-swimming text-4xl text-[#FCCD2A]"></i>
+            <p class="text-sm font-semibold">Swimming Pool</p>
+          </div>
+          <div class="space-y-2">
+            <i
+              class="fa-solid fa-fire-extinguisher text-4xl text-[#FCCD2A]"
+            ></i>
+            <p class="text-sm font-semibold">Fire Systems</p>
+          </div>
+          <div class="space-y-2">
+            <i class="fa-solid fa-play text-4xl text-[#FCCD2A]"></i>
+            <p class="text-sm font-semibold">Play Area</p>
+          </div>
+          <div class="space-y-2">
+            <i class="fa-solid fa-house-user text-4xl text-[#FCCD2A]"></i>
+            <p class="text-sm font-semibold">Club House</p>
+          </div>
+          <div class="space-y-2">
+            <i class="fa-solid fa-boxes-packing text-4xl text-[#FCCD2A]"></i>
+            <p class="text-sm font-semibold">Car Parking</p>
+          </div>
+          <div class="space-y-2">
+            <i class="fa-solid fa-cart-shopping text-4xl text-[#FCCD2A]"></i>
+            <p class="text-sm font-semibold">Retail Shops</p>
+          </div>
+
+          <div class="space-y-2">
+            <i class="fa-solid fa-tower-cell text-4xl text-[#FCCD2A]"></i>
+            <p class="text-sm font-semibold">24/7 Power</p>
+          </div>
+          <div class="space-y-2">
+            <i class="fa-solid fa-cable-car text-4xl text-[#FCCD2A]"></i>
+            <p class="text-sm font-semibold">Lift(s)</p>
+          </div>
+          <div class="space-y-2">
+            <img
+              src="https://via.placeholder.com/50"
+              alt="24/7 Water Icon"
+              class="mx-auto"
+            />
+            <p class="text-sm font-semibold">24/7 Water</p>
+          </div>
+          <div class="space-y-2">
+            <img
+              src="https://via.placeholder.com/50"
+              alt="24/7 Water Icon"
+              class="mx-auto"
+            />
+            <p class="text-sm font-semibold">24/7 Water</p>
+          </div>
+          <div class="space-y-2">
+            <img
+              src="https://via.placeholder.com/50"
+              alt="24/7 Water Icon"
+              class="mx-auto"
+            />
+            <p class="text-sm font-semibold">24/7 Water</p>
+          </div>
+          <div class="space-y-2">
+            <img
+              src="https://via.placeholder.com/50"
+              alt="24/7 Water Icon"
+              class="mx-auto"
+            />
+            <p class="text-sm font-semibold">24/7 Water</p>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- Highlights Section -->
+
+    <section class="py-16 px-4 lg:px-24 bg-gray-900 text-gray-200">
+      <div class="container mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          <!-- Image Section -->
+          <div>
+            <img
+              src="./image/francesco-ungaro-T0rEkxmxC80-unsplash.jpg"
+              alt="Building Image"
+              class="w-full rounded-lg shadow-lg"
+            />
+          </div>
+
+          <!-- Highlights Text Section -->
+          <div class="space-y-4">
+            <h2 class="text-3xl font-bold text-yellow-500">HIGHLIGHTS</h2>
+            <hr class="w-12 border-yellow-500 mb-6" />
+
+            <!-- Highlight Items -->
+            <ul class="space-y-2 text-lg">
+              <li class="flex items-center">
+                <span class="text-yellow-500 mr-2">✔</span> Luxurious
+                Residential Apartment
+              </li>
+              <li class="flex items-center">
+                <span class="text-yellow-500 mr-2">✔</span> Size 660 sq. ft -
+                1925 sq. ft.
+              </li>
+              <li class="flex items-center">
+                <span class="text-yellow-500 mr-2">✔</span> 27 Floors Apartment
+              </li>
+              <li class="flex items-center">
+                <span class="text-yellow-500 mr-2">✔</span> 24x7 tight security
+                with CCTV in the common area
+              </li>
+              <li class="flex items-center">
+                <span class="text-yellow-500 mr-2">✔</span> Elite Upper Urban
+                Surroundings
+              </li>
+              <li class="flex items-center">
+                <span class="text-yellow-500 mr-2">✔</span> Only 5 Minutes
+                Distance from Metro Station
+              </li>
+              <li class="flex items-center">
+                <span class="text-yellow-500 mr-2">✔</span> Fully-Loaded
+                Interior
+              </li>
+              <li class="flex items-center">
+                <span class="text-yellow-500 mr-2">✔</span> 2/3 BHK Spacious
+                Apartments
+              </li>
+              <li class="flex items-center">
+                <span class="text-yellow-500 mr-2">✔</span> At Prime Location
+                Greater Noida
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Floor plan $ details  -->
+    <section id="floorplan" class="floorplan max-w-7xl mx-auto p-4 ">
+      <div class="text-center my-4">
+        <h1 class="text-2xl font-bold">FLOOR PLAN & DETAILS</h1>
+      </div>
+
+      <!-- Navigation Tabs -->
+      <div class="flex justify-center space-x-4 border-b mb-6 text-nowrap overflow-x-auto max-w-full">
+        <a
+          href="#"
+          class="px-4 py-2 plans text-sm text-yellow-600 border-b-2 border-yellow-600"
+          >Floor Plan</a
+        >
+        <a href="#" class="px-4 py-2 plans text-sm text-gray-500">Location Map</a>
+        <a href="#" class="px-4 py-2 plans text-sm text-gray-500">Site Plan</a>
+        <a href="#" class="px-4 py-2 plans text-sm text-gray-500">Payment Plan</a>
+        <a href="#" class="px-4 py-2 plans text-sm text-gray-500">Price List</a>
+      </div>
+
+      <!-- Floor Plan Cards -->
+
+      <section>
+          <div class="grid lg:grid-cols-4 sm:grid-cols-3 grid-cols-2  gap-4 ">
+            <a
+               data-fancybox="gallery"
+               href="./image/fl4.webp"
+               data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code"
+               >
+              <img src="./image/fl4.webp"  alt="" />
+            </a>
+            <a
+            data-fancybox="gallery"
+            href="./image/fl4.webp"
+            data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code"
+            >
+           <img src="./image/fl4.webp"  alt="" />
+           </a>
+           <a
+           data-fancybox="gallery"
+           href="./image/fl4.webp"
+           data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code"
+           >
+          <img src="./image/fl4.webp"  alt="" />
+          </a>
+          <a
+          data-fancybox="gallery"
+          href="./image/fl4.webp"
+          data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code"
+          >
+         <img src="./image/fl4.webp"  alt="" />
+        </a>
+        <a
+        data-fancybox="gallery"
+        href="./image/fl4.webp"
+        data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code"
+        >
+       <img src="./image/fl4.webp"  alt="" />
+        </a>
+        <a
+        data-fancybox="gallery"
+        href="./image/fl4.webp"
+        data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code"
+        >
+       <img src="./image/fl4.webp"  alt="" />
+     </a>
+     <a
+        data-fancybox="gallery"
+     href="./image/fl4.webp"
+     data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code"
+     >
+    <img src="./image/fl4.webp"  alt="" />
+     </a>
+     
+</section>
+       
+     
+
+<div id="slider-container">
+  <h1 class="grid place-content-center text-2xl py-5 text-black-700 hover:text-[black] font-bold">PROJECT GALLERY </h1>
+	<div class="slider">
+		<span><img src="./image/slide-1.jpg"></img></span>
+    <span><img src="./image/slide-2.jpg"></img></span>
+    <span><img src="./image/slide-3.jpg"></img></span>
+    <span><img src="./image/slide-4.jpg"></img></span>
+    <span><img src="./image/slide-6.jpg"></img></span>
+    <span><img src="./image/slide-3.jpg"></img></span>
+    <span><img src="./image/slide-1.jpg"></img></span>
+    <span><img src="./image/slide-5.jpg"></img></span>
+    <span><img src="./image/slide-6.jpg"></img></span>
+	</div>
+</div>
+    </section>
+    <!-- Section for Banks Loan -->
+    <section class="mx-auto p-6 bg-[#B7E0FF] w-full">
+      <!-- Heading -->
+      <div class="text-center mb-8">
+        <h2 class="text-3xl font-bold">BANKS LOAN</h2>
+        <div class="w-16 h-1 bg-yellow-500 mx-auto mt-2"></div>
+      </div>
+
+      <!-- Logos Grid -->
+      <div
+        class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6"
+      >
+        <!-- Logo 1 -->
+        <div
+          class="bg-white p-4 rounded-lg shadow-lg flex items-center justify-center border-solid border-2 border-[#FCCD2A] rounded-md card"
+        >
+          <img
+            src="./image/hdfc.jpg"
+            alt="HDFC Home Loans"
+            class="h-16 object-contain "
+          />
+        </div>
+        <!-- Logo 2 -->
+        <div
+          class="bg-white p-4 rounded-lg shadow-lg flex items-center justify-center border-solid border-2 border-[#FCCD2A] rounded-md card"
+        >
+          <img
+            src="./image/icici.jpg"
+            alt="ICICI Home Loans"
+            class="h-16 object-contain"
+          />
+        </div>
+        <!-- Logo 3 -->
+        <div
+          class="bg-white p-4 rounded-lg shadow-lg flex items-center justify-center border-solid border-2 border-[#FCCD2A] rounded-md card"
+        >
+          <img
+            src="./image/iifl.jpg"
+            alt="IIFL Home Loans"
+            class="h-16 object-contain"
+          />
+        </div>
+        <!-- Logo 4 -->
+        <div
+          class="bg-white p-4 rounded-lg shadow-lg flex items-center justify-center border-solid border-2 border-[#FCCD2A] rounded-md card"
+        >
+          <img
+            src="./image/pnb.jpg"
+            alt="PNB Housing"
+            class="h-16 object-contain"
+          />
+        </div>
+        <!-- Logo 5 -->
+        <div
+          class="bg-white p-4 rounded-lg shadow-lg flex items-center justify-center border-solid border-2 border-[#FCCD2A] rounded-md card"
+        >
+          <img
+            src="./image/indiabulls.jpg"
+            alt="Indiabulls Home Loans"
+            class="h-16 object-contain"
+          />
+        </div>
+        <!-- Logo 6 -->
+        <div
+          class="bg-white p-4 rounded-lg shadow-lg flex items-center justify-center border-solid border-2 border-[#FCCD2A] rounded-md card"
+        >
+          <img
+            src="./image/dhfl.jpg"
+            alt="DHFL Home Loans"
+            class="h-16 object-contain"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer  -->
+
+    <footer class="bg-gray-800 text-white py-10">
+      <div class="container mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+          <!-- Corporate Links -->
+          <div>
+            <h2 class="font-bold mb-4">Corporate Links:</h2>
+            <ul class="space-y-2">
+              <li><a href="#" class="hover:text-orange-400">Home</a></li>
+              <li><a href="#" class="hover:text-orange-400">About Us</a></li>
+              <li><a href="#" class="hover:text-orange-400">Projects</a></li>
+              <li><a href="#" class="hover:text-orange-400">Contact Us</a></li>
+              <li>
+                <a href="#" class="hover:text-orange-400">Terms & Conditions</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Office Addresses -->
+          <div>
+            <h2 class="font-bold mb-4">Office:</h2>
+            <p> Misgun vilaasa <br /> ETA 2 greater Noida</p>
+            <p class="mt-2">RERA No.: UPRERAAGT10129</p>
+            <p>PAN No.: .....................!</p>
+
+           
+          </div>
+
+          <!-- Contact Information -->
+          <div>
+            <h2 class="font-bold mb-4">Contact Us:</h2>
+            <p>Phone: +91-9953-213-254</p>
+            <p>
+              Email:
+              <a
+                class="hover:text-orange-400"
+                >santoshs.rajpoot@gmail.com </a
+              >
+            </p>
+           
+         
+          </div>
+        </div>
+        <p class="text-sm text-center mb-4 mt-4">
+          Note: The offers as mentioned in the advertisement are as intimated
+          by developer to Daps Software.
+        </p>
+        <div class="mt-10 text-center contact">
+          <div class="mt-4 ">
+            <button
+              class="bg-green-600 hover:bg-green-500 text-white px-4 py-2 rounded-lg mr-2 "
+            >
+              WhatsApp
+            </button>
+            <button
+              class="bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-lg"
+            >
+              Call Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="./aap.js"></script>
+    <script>
+      Fancybox.bind('[data-fancybox="gallery"]', {
+           
+         });  
+      const menuBtn = document.getElementById("menu-btn");
+      const mobileMenu = document.getElementById("mobile-menu");
+
+      menuBtn.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+      });
+    </script>
+  </body>
+</html>
