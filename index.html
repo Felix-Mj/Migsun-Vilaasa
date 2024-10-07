@@ -110,7 +110,7 @@
     <section
       class="relative bg-cover bg-center"
       style="
-        background-image: url('./image/swarnarekha-pandey-WYGKVY-ddHE-unsplash.jpg');
+        background-image: url('./image/hero_section_image.jpg');
         min-height: 100vh;
       "
     >
@@ -186,12 +186,12 @@
     </section>
 
     <!-- content section  -->
-    <section class="border-solid border-4 border-red-500 bg-[#b7e0ff]">
+    <section class="border-solid  bg-[#f6f6f6]">
       <!-- Section for Project Description -->
       <section class="container mx-auto px-4 py-12 text-gray-700">
         <div class="text-center">
           <h1 class="text-3xl font-bold text-gray-900 mb-4">Migsun Vilaasa</h1>
-          <hr class="w-16 mx-auto border-yellow-500 mb-8" />
+          <hr class="w-20  mx-auto border-[2px] border-yellow-500 mb-8" />
         </div>
 
         <!-- Project Description Text -->
@@ -303,7 +303,7 @@
 
     <!-- Highlights Section -->
 
-    <section class="py-16 px-4 lg:px-24 bg-gray-900 text-gray-200">
+    <section class="py-16 px-4 lg:px-24 bg-[#fefbe8] text-[#000]">
       <div class="container mx-auto">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <!-- Image Section -->
@@ -371,72 +371,116 @@
 
       <!-- Navigation Tabs -->
       <div class="flex justify-center space-x-4 border-b mb-6 text-nowrap overflow-x-auto max-w-full">
-        <a
+        <button
           href="#"
-          class="px-4 py-2 plans text-sm text-yellow-600 border-b-2 border-yellow-600"
-          >Floor Plan</a
-        >
-        <a href="#" class="px-4 py-2 plans text-sm text-gray-500">Location Map</a>
-        <a href="#" class="px-4 py-2 plans text-sm text-gray-500">Site Plan</a>
-        <a href="#" class="px-4 py-2 plans text-sm text-gray-500">Payment Plan</a>
-        <a href="#" class="px-4 py-2 plans text-sm text-gray-500">Price List</a>
+          class=" tab-button px-4 py-2 plans text-sm text-gray-500 border-b-2" data-tab="1"
+          >Floor Plan
+        </button>
+        
+        <button href="#" class=" tab-button px-4 py-2 plans text-sm text-gray-500 border-b-2 " data-tab="2">Location Map</button>
+        <button href="#" class=" tab-button px-4 py-2 plans text-sm text-gray-500 border-b-2 " data-tab="3">Site Plan</button>
+        <button href="#" class=" tab-button px-4 py-2 plans text-sm text-gray-500 border-b-2 " data-tab="4">Payment Plan</button>
+        <button href="#" class=" tab-button px-4 py-2 plans text-sm text-gray-500 border-b-2 " data-tab="5">Price List</button>
       </div>
-
-      <!-- Floor Plan Cards -->
-
-      <section>
+      <div class="tab-content">
+        <div id="tab-1" class="tab-pane hidden">
           <div class="grid lg:grid-cols-4 sm:grid-cols-3 grid-cols-2  gap-4 ">
-            <a
+            <a class="border-solid border-2 border-[#FCCD2A] rounded-md"
                data-fancybox="gallery"
                href="./image/fl4.webp"
                data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code"
                >
-              <img src="./image/fl4.webp"  alt="" />
+              <img class="rounded-md" src="./image/fl4.webp"  alt="" />
             </a>
-            <a
+            <a class="border-solid border-2 border-[#FCCD2A] rounded-md"
             data-fancybox="gallery"
             href="./image/fl4.webp"
             data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code"
             >
-           <img src="./image/fl4.webp"  alt="" />
+           <img class="rounded-md" src="./image/fl4.webp"  alt="" />
            </a>
-           <a
+           <a class="border-solid border-2 border-[#FCCD2A] rounded-md"
            data-fancybox="gallery"
            href="./image/fl4.webp"
            data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code"
            >
-          <img src="./image/fl4.webp"  alt="" />
+          <img class="rounded-md" src="./image/fl4.webp"  alt="" />
           </a>
-          <a
+          <a class="border-solid border-2 border-[#FCCD2A] rounded-md"
           data-fancybox="gallery"
           href="./image/fl4.webp"
           data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code"
           >
-         <img src="./image/fl4.webp"  alt="" />
+         <img class="rounded-md" src="./image/fl4.webp"  alt="" />
         </a>
-        <a
+        <a class="border-solid border-2 border-[#FCCD2A] rounded-md"
         data-fancybox="gallery"
         href="./image/fl4.webp"
         data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code"
         >
-       <img src="./image/fl4.webp"  alt="" />
+       <img class="rounded-md" src="./image/fl4.webp"  alt="" />
         </a>
-        <a
+        <a class="border-solid border-2 border-[#FCCD2A] rounded-md"
         data-fancybox="gallery"
         href="./image/fl4.webp"
         data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code"
         >
-       <img src="./image/fl4.webp"  alt="" />
+       <img class="rounded-md" src="./image/fl4.webp"  alt="" />
      </a>
-     <a
+     <a class="border-solid border-2 border-[#FCCD2A] rounded-md"
         data-fancybox="gallery"
      href="./image/fl4.webp"
      data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code"
      >
-    <img src="./image/fl4.webp"  alt="" />
+    <img class="rounded-md" src="./image/fl4.webp"  alt="" />
      </a>
-     
-</section>
+          </div>
+      </div>
+      <div id="tab-2" class="tab-pane hidden mx-auto">
+        
+        <figure class="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 mx-auto border-solid border-2 border-[#FCCD2A] rounded-md">
+          <a href="#">
+          <img class="rounded-lg rounded-md" src="./image/location-map.webp" alt="image description">
+          </a>
+       <figcaption class="absolute px-4 text-lg text-white bottom-6">
+          <p>Do you want to get notified when a new component is added to Flowbite?</p>
+       </figcaption>
+        </figure>
+
+      </div>
+      <div id="tab-3" class="tab-pane hidden">
+        <figure class="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 mx-auto border-solid border-2 border-[#FCCD2A] rounded-md">
+          <a href="#">
+          <img class="rounded-lg rounded-md" src="./image/site-plan.webp" alt="image description">
+          </a>
+       <figcaption class="absolute px-4 text-lg text-white bottom-6">
+          <p>Do you want to get notified when a new component is added to Flowbite?</p>
+       </figcaption>
+        </figure>
+      </div>
+      <div id="tab-4" class="tab-pane hidden">
+        <figure class="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 mx-auto border-solid border-2 border-[#FCCD2A] rounded-md">
+          <a href="#">
+          <img class="rounded-lg rounded-md" src="./image/payment-plan.webp" alt="image description">
+          </a>
+       <figcaption class="absolute px-4 text-lg text-white bottom-6">
+          <p>Do you want to get notified when a new component is added to Flowbite?</p>
+       </figcaption>
+        </figure>
+    </div>
+    <div id="tab-5" class="tab-pane hidden">
+      <figure class="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 mx-auto border-solid border-2 border-[#FCCD2A] rounded-md">
+        <a href="#">
+        <img class="rounded-lg rounded-md" src="./image/price-list.webp" alt="image description">
+        </a>
+     <figcaption class="absolute px-4 text-lg text-white bottom-6">
+        <p>Do you want to get notified when a new component is added to Flowbite?</p>
+     </figcaption>
+      </figure>
+    </div>
+      </div>
+
+    
        
      
 
@@ -456,7 +500,7 @@
 </div>
     </section>
     <!-- Section for Banks Loan -->
-    <section class="mx-auto p-6 bg-[#B7E0FF] w-full">
+    <section class="mx-auto p-6 bg-[#fefbe8] w-full">
       <!-- Heading -->
       <div class="text-center mb-8">
         <h2 class="text-3xl font-bold">BANKS LOAN</h2>
@@ -532,56 +576,66 @@
 
     <!-- Footer  -->
 
-    <footer class="bg-gray-800 text-white py-10">
-      <div class="container mx-auto px-4">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
-          <!-- Corporate Links -->
-          <div>
-            <h2 class="font-bold mb-4">Corporate Links:</h2>
-            <ul class="space-y-2">
-              <li><a href="#" class="hover:text-orange-400">Home</a></li>
-              <li><a href="#" class="hover:text-orange-400">About Us</a></li>
-              <li><a href="#" class="hover:text-orange-400">Projects</a></li>
-              <li><a href="#" class="hover:text-orange-400">Contact Us</a></li>
-              <li>
-                <a href="#" class="hover:text-orange-400">Terms & Conditions</a>
-              </li>
-            </ul>
-          </div>
+    
+    
+    
+    
+    <!-- Footer Section -->
+    <!--space-y-6  backdrop-blur-sm bg-white/25 -->
+    <footer class="bg-[#FCCD2A] text-black py-10    ">
+    <footer class="bg-footer text-white py-16 ">
+        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Corporate Links Section -->
+            <div>
+                <h3 class="text-xl font-semibold mb-4">Corporate Links:</h3>
+                <ul>
+                    <li><a href="#" class="hover:underline">Home</a></li>
+                    <li><a href="#" class="hover:underline">About Us</a></li>
+                    <li><a href="#" class="hover:underline">Projects</a></li>
+                    <li><a href="#" class="hover:underline">Contact Us</a></li>
+                    <li><a href="#" class="hover:underline">Terms & Conditions</a></li>
+                </ul>
+            </div>
 
-          <!-- Office Addresses -->
-          <div>
-            <h2 class="font-bold mb-4">Office:</h2>
-            <p> Misgun vilaasa <br /> ETA 2 greater Noida</p>
-            <p class="mt-2">RERA No.: UPRERAAGT10129</p>
-            <p>PAN No.: .....................!</p>
+            <!-- Corporate Office Section -->
+            <div>
+              <h2 class="font-bold mb-4">Office:</h2>
+              <p> Misgun vilaasa <br /> ETA 2 greater Noida</p>
+              <p class="mt-2">RERA No.: UPRERAAGT10129</p>
+              <p>PAN No.: .....................!</p>
+  
+             
+            </div>
 
-           
-          </div>
+            <!-- Branch Office & Contact Section -->
+            <div>
+                <h3 class="text-xl font-semibold mb-4">Branch Office:</h3>
+                <p>Office no. B-510, Bhutani Techno Park Tower-B, 5th Floor, Sector - 127, Noida Expressway, Noida - 201313</p>
+                <p>Unit No 1106, 11th floor, Tower 1 DLF Corporate Greens, Sector - 74A Gurugram - 122004</p>
 
-          <!-- Contact Information -->
-          <div>
-            <h2 class="font-bold mb-4">Contact Us:</h2>
-            <p>Phone: +91-9953-213-254</p>
-            <p>
-              Email:
-              <a
-                class="hover:text-orange-400"
-                >santoshs.rajpoot@gmail.com </a
-              >
-            </p>
-           
-         
-          </div>
+                <h3 class="text-xl font-semibold mt-4">Contact Us:</h3>
+                <p>Phone: +91-9953-213-254</p>
+                <p>santoshs.rajpoot@gmail.com</p>
+
+                <!-- Social Links -->
+                <div class="mt-4">
+                    <a href="#" class="mr-2 hover:text-gray-300"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="mr-2 hover:text-gray-300"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="mr-2 hover:text-gray-300"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="hover:text-gray-300"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
         </div>
-        <p class="text-sm text-center mb-4 mt-4">
-          Note: The offers as mentioned in the advertisement are as intimated
-          by developer to Daps Software.
-        </p>
+
+        <div class="mt-8 text-center text-xs text-gray-400">
+            <p>&copy; 2012 - 2024 Daps Software. All Rights Reserved.</p>
+            <p>Note: The offers as mentioned in the advertisement are as intimated by the developer Daps Software</p>
+        </div>
+
         <div class="mt-10 text-center contact">
-          <div class="mt-4 ">
+          <div class="mt-10 ">
             <button
-              class="bg-green-600 hover:bg-green-500 text-white px-4 py-2 rounded-lg mr-2 "
+              class="  bg-green-600 hover:bg-green-500 text-white px-4 py-2 rounded-lg mr-2 "
             >
               WhatsApp
             </button>
@@ -592,8 +646,16 @@
             </button>
           </div>
         </div>
-      </div>
     </footer>
+
+</body>
+
+</html>
+
+      
+   
+
+    
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
     <script src="./aap.js"></script>
     <script>

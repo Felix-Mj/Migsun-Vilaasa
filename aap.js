@@ -174,5 +174,29 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-const card = document.querySelectorAll('.card')
-console.log(card);
+
+
+// tapbs 
+ // JavaScript to handle tabs
+ const tabButtons = document.querySelectorAll('.tab-button');
+ const tabPanes = document.querySelectorAll('.tab-pane');
+
+ tabButtons.forEach(button => {
+     button.addEventListener('click', () => {
+         // Hide all tab panes
+         tabPanes.forEach(pane => pane.classList.add('hidden'));
+
+         // Remove active class from all buttons
+         tabButtons.forEach(btn => btn.classList.remove('border-yellow-500', 'text-yellow-500'));
+
+         // Show the clicked tab pane
+         const tabId = button.getAttribute('data-tab');
+         document.getElementById(`tab-${tabId}`).classList.remove('hidden');
+
+         // Add active class to the clicked button
+         button.classList.add('border-yellow-500', 'text-yellow-500');
+     });
+ });
+
+ // Default active tab
+ document.querySelector('.tab-button[data-tab="1"]').click();

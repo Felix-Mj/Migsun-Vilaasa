@@ -12,10 +12,11 @@
 }
 .contact {
   position: fixed;
-  bottom: 6px;
+  bottom: 2px;
   left: 0;
   z-index: 99;
   width: 100%;
+
 }
 #slider-container {
   height: 300px;
@@ -68,4 +69,16 @@
 }
 .card:hover img{
     transform: scale(1.05);
+}
+
+
+/* footer  */
+.bg-footer {
+  background-image:linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)),url('./image/footer-image.jpg');
+  background-size: cover;
+  background-position: center;
+  
+}
+.contact{
+
 }
