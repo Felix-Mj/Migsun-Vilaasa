@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
@@ -23,9 +24,9 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body class="font-[Poppins] ">
+  <body class="font-[Poppins] " >
     <!-- header-section  -->
-    <header class="bg-white py-2 shadow-md header">
+    <header class="bg-white py-2 shadow-md header" data-aos="zoom-in-up">
       <div class="container mx-auto px-4">
         <div class="flex items-center justify-between ">
           <!-- Logo -->
@@ -108,7 +109,7 @@
     </header>
     <!-- hero-section  -->
     <section
-      class="relative bg-cover bg-center"
+      class="relative bg-cover bg-center" data-aos="zoom-in-up"
       style="
         background-image: url('./image/hero_section_image.jpg');
         min-height: 100vh;
@@ -186,7 +187,7 @@
     </section>
 
     <!-- content section  -->
-    <section class="border-solid  bg-[#f6f6f6]">
+    <section class="border-solid  bg-[#f6f6f6]" data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="1000" >
       <!-- Section for Project Description -->
       <section class="container mx-auto px-4 py-12 text-gray-700">
         <div class="text-center">
@@ -303,7 +304,7 @@
 
     <!-- Highlights Section -->
 
-    <section class="py-16 px-4 lg:px-24 bg-[#fefbe8] text-[#000]">
+    <section class="py-16 px-4 lg:px-24 bg-[#fefbe8] text-[#000]"  data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="1000" >
       <div class="container mx-auto">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <!-- Image Section -->
@@ -364,7 +365,7 @@
     </section>
 
     <!-- Floor plan $ details  -->
-    <section id="floorplan" class="floorplan max-w-7xl mx-auto p-4 ">
+    <section id="floorplan" class="floorplan max-w-7xl mx-auto p-4 "  data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="1000" >
       <div class="text-center my-4">
         <h1 class="text-2xl font-bold">FLOOR PLAN & DETAILS</h1>
       </div>
@@ -500,7 +501,7 @@
 </div>
     </section>
     <!-- Section for Banks Loan -->
-    <section class="mx-auto p-6 bg-[#fefbe8] w-full">
+    <section class="mx-auto p-6 bg-[#fefbe8] w-full"  data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="1000" >
       <!-- Heading -->
       <div class="text-center mb-8">
         <h2 class="text-3xl font-bold">BANKS LOAN</h2>
@@ -582,7 +583,7 @@
     
     <!-- Footer Section -->
     <!--space-y-6  backdrop-blur-sm bg-white/25 -->
-    <footer class="bg-[#FCCD2A] text-black py-10    ">
+    <footer class="bg-[#FCCD2A] text-black py-10"  data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="1000" >
     <footer class="bg-footer text-white py-16 ">
         <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
             <!-- Corporate Links Section -->
@@ -655,7 +656,7 @@
       
    
 
-    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
     <script src="./aap.js"></script>
     <script>
@@ -668,6 +669,10 @@
       menuBtn.addEventListener("click", () => {
         mobileMenu.classList.toggle("hidden");
       });
+
+
+      // aos library 
+      AOS.init();
     </script>
   </body>
 </html>
