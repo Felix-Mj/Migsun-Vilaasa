@@ -1,3 +1,14 @@
+:root{ 
+  --buttons-color:#F47920; 
+  --text-secondarybtn-color:#991B1E;
+  --bg-hilightbtn-color: #FFD100;
+  --links-header-imp-color: #C71F2B; 
+  --text-brd-icon-color: #000000; 
+}
+
+
+
+
 * {
   padding: 0;
   margin: 0;
@@ -71,14 +82,29 @@
     transform: scale(1.05);
 }
 
+/* Hilightimage */
+  .minimal_hilight_img{
+    background-image:linear-gradient(rgba(239, 231, 231, 0.7), rgba(255, 208, 0, 0.322)),url('./image/minimal_image_hilights.jpg');
+    background-size: cover;
+    background-position: center;
+    
+  }
+
 
 /* footer  */
 .bg-footer {
-  background-image:linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)),url('./image/footer-image.jpg');
+  background-image:linear-gradient(rgba(0, 0, 0, 0.722), rgb(0, 0, 0)),url('./image/minimal_image_hilights.jpg');
   background-size: cover;
   background-position: center;
   
 }
-.contact{
-
+.brochure{
+  background-image:linear-gradient(rgba(246, 164, 164, 0.7), rgba(244, 120, 32, 0.67)),url('./image/minimal_image_hilights.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.banksloan{
+  background-image:linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.255)),url('./image/minimal_image_hilights.jpg');
+  background-size: cover;
+  background-position: center;
 }
