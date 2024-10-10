@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Migsun Vilaasa</title>
+    <link rel="shortcut icon" href="./image/favicon__1.png" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -63,6 +64,14 @@
               +91-9953-213-254
             </a>
           </div>
+          <!-- <div class="hidden md:block">
+            <a
+              href="tel:+917289838838"
+              class="bg-[var(--buttons-color)] text-white py-2 px-4 rounded-lg"
+            >
+              +91-9953-213-254
+            </a>
+          </div> -->
 
           <!-- Mobile menu button -->
           <div class="md:hidden flex items-center">
@@ -134,7 +143,7 @@
           <p class="text-xl lg:text-2xl">Your dream home is now at</p>
           <div class="text-5xl font-bold">₹75 Lakh*</div>
           <p class="text-lg lg:text-xl">Ready to Move in 2/3 BHK Apartments</p>
-          <p class="text-lg lg:text-xl">ETA 2 and Omicron 3, Greater Noida</p>
+          <p class="text-lg lg:text-xl">Office Misgun vilaasa  ETA 2 greater Noida</p>
         </div>
 
         <!-- Form Section -->
@@ -142,7 +151,7 @@
           <h2 class="text-center text-2xl font-semibold text-[#C71F2B] mb-6">
             GET IN TOUCH !!
           </h2>
-          <form action="#" method="POST" class="space-y-4">
+          <form action="send.php" method="post" needs-validation class="space-y-4">
             <div>
               <input
                 type="text"
@@ -188,7 +197,7 @@
 
     <!-- content section  -->
     
-      <section class="bg-white py-16">
+      <section class="phone_view bg-white py-16">
         <div class="container mx-auto flex flex-col lg:flex-row items-center">
             
             <!-- Image Section -->
@@ -227,7 +236,7 @@
       </section>
 
       <!-- Amenities Section -->
-      <section class="bg-white py-12">
+      <section class="phone_view bg-white py-12">
         <div
           class="container mx-auto grid grid-cols-1 sm:grid-cols-4 md:grid-cols-6 gap-6 text-center"
         >
@@ -273,7 +282,7 @@
 
     <!-- Highlights Section -->
 
-    <section class="minimal_hilight_img py-16 px-4 lg:px-24 bg-[#fefbe8] text-[#000]"  data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="500" >
+    <section class="minimal_hilight_img py-16 px-4 lg:px-24  bg-[#fefbe8] text-[#000]"  data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="500" >
       <div class="container mx-auto">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <!-- Image Section -->
@@ -357,24 +366,24 @@
           <div class="grid lg:grid-cols-4 sm:grid-cols-3 grid-cols-2  gap-4 ">
             <a class="border-solid border-[1px] border-[#000000] rounded-md"
                data-fancybox="gallery"
-               href="./image/fl4.webp"
+               href="./image/floor-1.webp"
                data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code"
                >
-              <img class="rounded-md" src="./image/fl4.webp"  alt="" />
+              <img class="rounded-md" src="./image/floor-1.webp"  alt="" />
             </a>
             <a class="border-solid border-[1px] border-[#000000] rounded-md"
             data-fancybox="gallery"
-            href="./image/fl4.webp"
+            href="./image/fl2.webp"
             data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code"
             >
-           <img class="rounded-md" src="./image/fl4.webp"  alt="" />
+           <img class="rounded-md" src="./image/fl2.webp"  alt="" />
            </a>
            <a class="border-solid border-[1px] border-[#000000] rounded-md"
            data-fancybox="gallery"
-           href="./image/fl4.webp"
+           href="./image/fl3.webp"
            data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code"
            >
-          <img class="rounded-md" src="./image/fl4.webp"  alt="" />
+          <img class="rounded-md" src="./image/fl3.webp"  alt="" />
           </a>
           <a class="border-solid border-[1px] border-[#000000] rounded-md"
           data-fancybox="gallery"
@@ -385,24 +394,24 @@
         </a>
         <a class="border-solid border-[1px] border-[#000000] rounded-md"
         data-fancybox="gallery"
-        href="./image/fl4.webp"
+        href="./image/fl5.webp"
         data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code"
         >
-       <img class="rounded-md" src="./image/fl4.webp"  alt="" />
+       <img class="rounded-md" src="./image/fl5.webp"  alt="" />
         </a>
         <a class="border-solid border-[1px] border-[#000000] rounded-md"
         data-fancybox="gallery"
-        href="./image/fl4.webp"
+        href="./image/fl6.webp"
         data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code"
         >
-       <img class="rounded-md" src="./image/fl4.webp"  alt="" />
+       <img class="rounded-md" src="./image/fl6.webp"  alt="" />
      </a>
      <a class="border-solid border-[1px] border-[#000000] rounded-md"
         data-fancybox="gallery"
-     href="./image/fl4.webp"
+     href="./image/fl7.webp"
      data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code"
      >
-    <img class="rounded-md" src="./image/fl4.webp"  alt="" />
+    <img class="rounded-md" src="./image/fl7.webp"  alt="" />
      </a>
           </div>
       </div>
@@ -606,26 +615,27 @@
                 <h1 class="border-solid border-b-2 border-white w-40 mb-4"></h1>
 
                 <div class="flex justify-center flex-col gap-4">
-                  <p>Office no. B-510, Bhutani Techno Park Tower-B, 5th Floor, Sector - 127, Noida Expressway, Noida - 201313</p>
-                <p>Unit No 1106, 11th floor, Tower 1 DLF Corporate Greens, Sector - 74A Gurugram - 122004</p>
+                  <p>Office - Misgun vilaasa  ETA 2 greater Noida</p>
+                <!-- <p>Unit No 1106, 11th floor, Tower 1 DLF Corporate Greens, Sector - 74A Gurugram - 122004</p> -->
 
                 <h3 class="text-xl font-semibold mt-4">Contact Us:</h3>
-                <p>Phone: +91-9953-213-254</p>
+                <p>Phone: +91-9953-213-254 </p> 
+                <p>Phone: +91-8826-301-810 </p> 
                 <p>santoshs.rajpoot@gmail.com</p>
                 </div>
 
                 <!-- Social Links -->
-                <div class="mt-4">
+                <!-- <div class="mt-4">
                     <a href="#" class="mr-2 hover:text-[#FFD100]"><i class="fab fa-facebook"></i></a>
                     <a href="#" class="mr-2 hover:text-[#FFD100]"><i class="fab fa-twitter"></i></a>
                     <a href="#" class="mr-2 hover:text-[#FFD100]"><i class="fab fa-linkedin"></i></a>
                     <a href="#" class="hover:text-[#FFD100]"><i class="fab fa-youtube"></i></a>
-                </div>
+                </div> -->
             </div>
         </div>
 
         <div class="mt-8 text-center text-xs text-gray-400">
-            <p>&copy; 2012 - 2024 Daps Software. All Rights Reserved.</p>
+            <p>&copy; 2013 - 2024 Daps Software. All Rights Reserved.</p>
             <p>Note: The offers as mentioned in the advertisement are as
                intimated by the developer <a class="text-[#FFD100]" href="https://www.dapssoftware.com/#:~:text=DAPS%20was%20founded%20in%202013%20with%20a%20mission">Daps Software</a></p>
         </div>
@@ -634,13 +644,15 @@
           <div class="mt-10 ">
             <button
               class="  bg-green-600 hover:bg-green-500 text-white px-4 py-2 rounded-lg mr-2 "
-            >
-              WhatsApp
+              >
+              <!-- < href="" target="_blank">WhatsApp</a> -->
+              <a href="https://wa.me/9792908929?text=Hello%20there!"  target="_blank">WhatsApp</a>
+              
+              
             </button>
-            <button
+            <button 
               class="bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-lg"
-            >
-              Call Now
+            > <a href="tel:+919953213254"> Call Now</a>
             </button>
           </div>
         </div>

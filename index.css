@@ -108,3 +108,11 @@
   background-size: cover;
   background-position: center;
 }
+
+
+/* phone_view  */
+@media (max-width:640px) {
+    .phone_view {
+      padding: 10px;
+    }
+}
