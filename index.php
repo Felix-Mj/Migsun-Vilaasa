@@ -1,70 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Migsun Vilaasa</title>
-    <link rel="shortcut icon" href="./image/favicon__1.png" type="image/x-icon">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <!-- fontawesome link  -->
-    <!-- <script src="https://kit.fontawesome.com/45a593607e.js" crossorigin="anonymous"></script> -->
-    <script
-      src="https://kit.fontawesome.com/2a39b0afc8.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body id="home" class="font-[Poppins] " >
-    <!-- header-section  -->
-    <header class="bg-white py-2 shadow-md header" data-aos="zoom-in-up">
-      <div class="container mx-auto px-4">
-        <div class="flex items-center justify-between ">
-          <!-- Logo -->
-          <div class="flex items-center space-x-5">
-            <img
-              src="./image/migsun-vilaasa-logo.png"
-              alt="Logo"
-              class="h-13"
-            />
-          </div>
 
-          <!-- Navbar links -->
-          <nav class="hidden md:flex space-x-6">
-            <a href="#home" class="text-[#000000] hover:text-[#C71F2B]">HOME</a>
-            <a href="#floorplan" class="text-[#000000] hover:text-[#C71F2B]"
-              >FLOOR PLAN & DETAILS</a
-            >
-            <a href="#slider-container" class="text-[#000000] hover:text-[#C71F2B]">GALLERY</a>
-            <a href="#" class="text-[#000000] hover:text-[#C71F2B]"
-              >SPECIFICATIONS</a
-            >
-            <a href="#EBrochure" class="text-[#000000] hover:text-[#C71F2B]"
-              >E-BROCHURE</a
-            >
-          </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Migsun Vilaasa</title>
+  <link rel="shortcut icon" href="./image/favicon__1.png" type="image/x-icon">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <!-- fontawesome link  -->
+  <!-- <script src="https://kit.fontawesome.com/45a593607e.js" crossorigin="anonymous"></script> -->
+  <script src="https://kit.fontawesome.com/2a39b0afc8.js" crossorigin="anonymous"></script>
+</head>
+
+<body id="home" class="font-[Poppins] ">
+  <!-- header-section  -->
+  <header class="bg-white py-2 shadow-md header" data-aos="zoom-in-up">
+    <div class="container mx-auto px-4">
+      <div class="flex items-center justify-between ">
+        <!-- Logo -->
+        <div class="flex items-center space-x-5">
+          <img src="./image/migsun-vilaasa-logo.png" alt="Logo" class="h-13" />
+        </div>
+
+        <!-- Navbar links -->
+        <nav class="hidden md:flex space-x-6">
+          <a href="#home" class="text-[#000000] hover:text-[#C71F2B]">HOME</a>
+          <a href="#floorplan" class="text-[#000000] hover:text-[#C71F2B]">FLOOR PLAN & DETAILS</a>
+          <a href="#slider-container" class="text-[#000000] hover:text-[#C71F2B]">GALLERY</a>
+          <a href="#" class="text-[#000000] hover:text-[#C71F2B]">SPECIFICATIONS</a>
+          <a href="#EBrochure" class="text-[#000000] hover:text-[#C71F2B]">E-BROCHURE</a>
+        </nav>
 
 
-          <!-- Contact Button -->
+        <!-- Contact Button -->
+        
           <div class="hidden md:block">
-            <a
-              href="tel:+917289838838"
-              class="bg-[var(--buttons-color)] text-white py-2 px-4 rounded-lg"
-            >
+            <a href="tel:+917289838838" class="bg-[var(--buttons-color)] text-white py-2 px-4 rounded-lg">
               +91-9953-213-254
             </a>
           </div>
-          <!-- <div class="hidden md:block">
+          <div class="hidden md:block">
+            <a href="tel:+917289838838" class="bg-[#991b1e] text-white py-2 px-4 rounded-lg">
+              +91-8826-301-810
+            </a>
+          </div>
+        <!-- <div class="hidden md:block">
             <a
               href="tel:+917289838838"
               class="bg-[var(--buttons-color)] text-white py-2 px-4 rounded-lg"
@@ -73,615 +61,531 @@
             </a>
           </div> -->
 
-          <!-- Mobile menu button -->
-          <div class="md:hidden flex items-center">
-            <button id="menu-btn" class="text-gray-700 focus:outline-none">
-              <svg
-                class="w-6 h-6"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M4 6h16M4 12h16M4 18h16"
-                ></path>
-              </svg>
-            </button>
-          </div>
+        <!-- Mobile menu button -->
+        <div class="md:hidden flex items-center">
+          <button id="menu-btn" class="text-gray-700 focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
         </div>
       </div>
+    </div>
 
-      <!-- Mobile Menu -->
-      <div id="mobile-menu" class="hidden md:hidden">
-        <nav class="flex flex-col space-y-2 py-4">
-          <a href="#" class="text-gray-700 hover:text-yellow-500">HOME</a>
-          <a href="#" class="text-gray-700 hover:text-yellow-500"
-            >FLOOR PLAN & DETAILS</a
-          >
-          <a href="#" class="text-gray-700 hover:text-yellow-500">GALLERY</a>
-          <a href="#" class="text-gray-700 hover:text-yellow-500"
-            >SPECIFICATIONS</a
-          >
-          <a href="#" class="text-gray-700 hover:text-yellow-500">E-BROCHURE</a>
-          <a
-            href="tel:+917289838838"
-            class="bg-yellow-400 text-black py-2 px-4 rounded-lg text-center"
-          >
-            +91-7289-838-838
-          </a>
-        </nav>
-      </div>
-    </header>
-    <!-- hero-section  -->
-    <section
-      class="relative bg-cover bg-center" data-aos="zoom-in-up"
-      style="
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden">
+      <nav class="flex flex-col space-y-2 py-4">
+        <a href="#" class="text-gray-700 hover:text-[#C71F2B]">HOME</a>
+        <a href="#" class="text-gray-700 hover:text-[#C71F2B]">FLOOR PLAN & DETAILS</a>
+        <a href="#" class="text-gray-700 hover:text-[#C71F2B]">GALLERY</a>
+        <a href="#" class="text-gray-700 hover:text-[#C71F2B]">SPECIFICATIONS</a>
+        <a href="#" class="text-gray-700 hover:text-[#C71F2B]">E-BROCHURE</a>
+        <a href="tel:+917289838838" class="bg-[#C71F2B] text-black py-2 px-4 rounded-lg text-center">
+          +91-7289-838-838
+        </a>
+      </nav>
+    </div>
+  </header>
+  <!-- hero-section  -->
+  <section class="relative bg-cover bg-center" data-aos="zoom-in-up" style="
         background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./image/hero_section_image.jpg');
         min-height: 100vh;
-      "
-    >
-      <!-- Overlay -->
-      <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+      ">
+    <!-- Overlay -->
+    <div class="absolute inset-0 bg-black bg-opacity-40"></div>
 
-      <div
-        class="relative z-10 container mx-auto px-6 py-12 flex flex-col lg:flex-row items-center justify-between"
-      >
-        <!-- Text Section -->
-        <div
-          class="text-[#fff] p-6 rounded-lg text-center lg:text-left space-y-6  backdrop-blur-sm bg-[#c71f2ac3]"
-        >
-          <!-- <img
+    <div class="relative z-10 container mx-auto px-6 py-12 flex flex-col lg:flex-row items-center justify-between">
+      <!-- Text Section -->
+      <div class="text-[#fff] p-6 rounded-lg text-center lg:text-left space-y-6  backdrop-blur-sm bg-[#c71f2ac3]">
+        <!-- <img
             src="https://via.placeholder.com/150x50.png?text=Migsun+Logo"
             alt="Logo"
             class="mx-auto lg:mx-0"
           /> -->
-          <h1 class="text-4xl lg:text-6xl font-bold">WHY PAY RENT?</h1>
-          <p class="text-xl lg:text-2xl">Your dream home is now at</p>
-          <div class="text-5xl font-bold">₹75 Lakh*</div>
-          <p class="text-lg lg:text-xl">Ready to Move in 2/3 BHK Apartments</p>
-          <p class="text-lg lg:text-xl">Office Misgun vilaasa  ETA 2 greater Noida</p>
-        </div>
-
-        <!-- Form Section -->
-        <div class="mt-8 lg:mt-0 lg:w-1/3 bg-white rounded-lg shadow-lg p-6">
-          <h2 class="text-center text-2xl font-semibold text-[#C71F2B] mb-6">
-            GET IN TOUCH !!
-          </h2>
-          <form action="send.php" method="post" needs-validation class="space-y-4">
-            <div>
-              <input
-                type="text"
-                name="name"
-                placeholder="Name"
-                class="w-full px-4 py-2 border border-gray-300 rounded-lg"
-              />
-            </div>
-            <div>
-              <input
-                type="email"
-                name="email"
-                placeholder="Email"
-                class="w-full px-4 py-2 border border-gray-300 rounded-lg"
-              />
-            </div>
-            <div>
-              <input
-                type="tel"
-                name="phone"
-                placeholder="Phone"
-                class="w-full px-4 py-2 border border-gray-300 rounded-lg"
-              />
-            </div>
-            <div>
-              <textarea
-                name="query"
-                placeholder="Query"
-                rows="3"
-                class="w-full px-4 py-2 border border-gray-300 rounded-lg"
-              ></textarea>
-            </div>
-            <button
-              type="submit"
-              class="w-full bg-[var(--buttons-color)] text-white px-4 py-2 rounded-lg font-semibold hover:bg-yellow-600 transition"
-            >
-              Submit
-            </button>
-          </form>
-        </div>
+        <h1 class="text-4xl lg:text-6xl font-bold">WHY PAY RENT?</h1>
+        <p class="text-xl lg:text-2xl">Your dream home is now at</p>
+        <div class="text-5xl font-bold">₹75 Lakh*</div>
+        <p class="text-lg lg:text-xl">Ready to Move in 2/3 BHK Apartments</p>
+        <p class="text-lg lg:text-xl">Office Misgun vilaasa ETA 2 greater Noida</p>
       </div>
-    </section>
 
-    <!-- content section  -->
-    
-      <section class="phone_view bg-white py-16">
-        <div class="container mx-auto flex flex-col lg:flex-row items-center">
-            
-            <!-- Image Section -->
-            <div class="lg:w-1/2 w-full mb-8 lg:mb-0">
-                <img  src="./image/gallery_1WhatsApp Image 2023-08-25 at 3.25.26 PM.jpeg" alt="Specification Image" class="
-                  rounded-lg shadow-lg w-[700px] h-[430px]">
-            </div>
-      
-            <!-- Text Section -->
-            <div class="lg:w-1/2 w-full lg:pl-12">
-                <h2 class="text-4xl font-bold text-[#C71F2B] mb-4">MIGSUN VILAASA</h2>
-                <h3 class="text-[#F47920] font-semibold">A LUXURY RESIDENTIAL DEVELOPMENT IN ETA2</h3>
-                <p class="text-[#000000] mb-4"> Greater
-                  Noida, is proud to present ready-to-move-in 2/3 BHK dream home
-                  apartments fully loaded with modern amenities. The project welcomes
-                  residents and wishful real estate buyers to another part of renowned
-                  proximity to world-class hospitals, international schools,
-                  engineering colleges, airports, and other state-of-the-art social
-                  and commercial landmarks. This is being engineered and developed
-                  using world-class civil architecture and engineering tools.</p>
-                <p class="text-[#000000] mb-6">
-                    Located in the heart of Zeta 1, this luxurious development spans over 6 acres and offers a range of 3BHK and 4BHK apartments designed to elevate your lifestyle.
-                </p>
-      
-                <!-- Buttons Section -->
-                <div class="flex space-x-4">
-                    <a href="#" class="bg-[#F47920] text-white px-6 py-3 rounded-lg font-semibold hover:bg-yellow-600 transition">
-                        Schedule Appointment
-                    </a>
-                    <a href="#" class="bg-[#991B1E] text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-900 transition">
-                        Download Specification
-                    </a>
-                </div>
-            </div>
-        </div>
-      </section>
-
-      <!-- Amenities Section -->
-      <section class="phone_view bg-white py-12">
-        <div
-          class="container mx-auto grid grid-cols-1 sm:grid-cols-4 md:grid-cols-6 gap-6 text-center"
-        >
-          <div class="space-y-2 py-2 border-solid border-[1px] border-[#000000] rounded-md">
-            <i class="fa-solid fa-person-swimming text-4xl text-[#991B1E]"></i>
-            <p class="text-sm font-semibold text-[#000000]">Swimming Pool</p>
-          </div>
-          <div class="space-y-2   py-2 border-solid border-[1px] border-[#000000] rounded-md">
-            <i
-              class="fa-solid fa-fire-extinguisher text-4xl text-[#991B1E]"
-            ></i>
-            <p class="text-sm font-semibold text-[#000000]">Fire Systems</p>
-          </div>
-          <div class="space-y-2  py-2 border-solid border-[1px] border-[#000000] rounded-md">
-            <i class="fa-solid fa-play text-4xl text-[#991B1E]"></i>
-            <p class="text-sm font-semibold text-[#000000]">Play Area</p>
-          </div>
-          <div class="space-y-2  py-2 border-solid border-[1px] border-[#000000] rounded-md">
-            <i class="fa-solid fa-house-user text-4xl text-[#991B1E]"></i>
-            <p class="text-sm font-semibold text-[#000000]">Club House</p>
-          </div>
-          <div class="space-y-2  py-2 border-solid border-[1px] border-[#000000] rounded-md">
-            <i class="fa-solid fa-boxes-packing text-4xl text-[#991B1E]"></i>
-            <p class="text-sm font-semibold text-[#000000]">Car Parking</p>
-          </div>
-          <div class="space-y-2  py-2 border-solid border-[1px] border-[#000000] rounded-md">
-            <i class="fa-solid fa-cart-shopping text-4xl text-[#991B1E]"></i>
-            <p class="text-sm font-semibold text-[#000000]">Retail Shops</p>
-          </div>
-
-          <div class="space-y-2  py-2 border-solid border-[1px] border-[#000000] rounded-md">
-            <i class="fa-solid fa-tower-cell text-4xl text-[#991B1E]"></i>
-            <p class="text-sm font-semibold  text-[#000000]">24/7 Power</p>
-          </div>
-          <div class="space-y-2  py-2 border-solid border-[1px] border-[#000000] rounded-md">
-            <i class="fa-solid fa-cable-car text-4xl text-[#991B1E]"></i>
-            <p class="text-sm font-semibold  text-[#000000]">Lift(s)</p>
-          </div>
-        
-        </div>
-      </section>
-    </section>
-
-    <!-- Highlights Section -->
-
-    <section class="minimal_hilight_img py-16 px-4 lg:px-24  bg-[#fefbe8] text-[#000]"  data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="500" >
-      <div class="container mx-auto">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          <!-- Image Section -->
+      <!-- Form Section -->
+      <div class="mt-8 lg:mt-0 lg:w-1/3 bg-white rounded-lg shadow-lg p-6">
+        <h2 class="text-center text-2xl font-semibold text-[#C71F2B] mb-6">
+          GET IN TOUCH !!
+        </h2>
+        <form action="send.php" method="post" needs-validation class="space-y-4">
           <div>
-            <img
-              src="./image/gallery-_WhatsApp Image 2023-08-25 at 3.25.29 PM.jpeg"
-              alt="Building Image"
-              class=" rounded-lg shadow-lg w-[700px] h-[430px]"
-            />
+            <input type="text" name="name" placeholder="Name"
+              class="w-full px-4 py-2 border border-gray-300 rounded-lg" />
           </div>
-
-          <!-- Highlights Text Section -->
-          <div class="space-y-4">
-            <h2 class="text-3xl font-bold text-[#991B1E]">HIGHLIGHTS</h2>
-            <hr class="w-12 border-yellow-500 mb-6" />
-
-            <!-- Highlight Items -->
-            <ul class="space-y-2 text-lg text-[#991B1E]">
-              <li class="flex items-center">
-                <span class="text-yellow-500 mr-2">✔</span> Luxurious
-                Residential Apartment
-              </li>
-              <li class="flex items-center">
-                <span class="text-yellow-500 mr-2">✔</span> Size 660 sq. ft -
-                1925 sq. ft.
-              </li>
-              <li class="flex items-center">
-                <span class="text-yellow-500 mr-2">✔</span> 27 Floors Apartment
-              </li>
-              <li class="flex items-center">
-                <span class="text-yellow-500 mr-2">✔</span> 24x7 tight security
-                with CCTV in the common area
-              </li>
-              <li class="flex items-center">
-                <span class="text-yellow-500 mr-2">✔</span> Elite Upper Urban
-                Surroundings
-              </li>
-              <li class="flex items-center">
-                <span class="text-yellow-500 mr-2">✔</span> Only 5 Minutes
-                Distance from Metro Station
-              </li>
-              <li class="flex items-center">
-                <span class="text-yellow-500 mr-2">✔</span> Fully-Loaded
-                Interior
-              </li>
-              <li class="flex items-center">
-                <span class="text-yellow-500 mr-2">✔</span> 2/3 BHK Spacious
-                Apartments
-              </li>
-              <li class="flex items-center">
-                <span class="text-yellow-500 mr-2">✔</span> At Prime Location
-                Greater Noida
-              </li>
-            </ul>
+          <div>
+            <input type="email" name="email" placeholder="Email"
+              class="w-full px-4 py-2 border border-gray-300 rounded-lg" />
           </div>
+          <div>
+            <input type="tel" name="phone" placeholder="Phone"
+              class="w-full px-4 py-2 border border-gray-300 rounded-lg" />
+          </div>
+          <div>
+            <textarea name="query" placeholder="Query" rows="3"
+              class="w-full px-4 py-2 border border-gray-300 rounded-lg"></textarea>
+          </div>
+          <button type="submit"
+            class="w-full bg-[var(--buttons-color)] text-white px-4 py-2 rounded-lg font-semibold hover:bg-yellow-600 transition">
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- content section  -->
+
+  <section class="phone_view bg-white py-16">
+    <div class="container mx-auto flex flex-col lg:flex-row items-center">
+
+      <!-- Image Section -->
+      <div class="lg:w-1/2 w-full mb-8 lg:mb-0">
+        <img src="./image/gallery_1WhatsApp Image 2023-08-25 at 3.25.26 PM.jpeg" alt="Specification Image" class="
+                  rounded-lg shadow-lg w-[700px] h-[430px]">
+      </div>
+
+      <!-- Text Section -->
+      <div class="lg:w-1/2 w-full lg:pl-12">
+        <h2 class="text-4xl font-bold text-[#C71F2B] mb-4">MIGSUN VILAASA</h2>
+        <h3 class="text-[#F47920] font-semibold">A LUXURY RESIDENTIAL DEVELOPMENT IN ETA2</h3>
+        <p class="text-[#000000] mb-4"> Greater
+          Noida, is proud to present ready-to-move-in 2/3 BHK dream home
+          apartments fully loaded with modern amenities. The project welcomes
+          residents and wishful real estate buyers to another part of renowned
+          proximity to world-class hospitals, international schools,
+          engineering colleges, airports, and other state-of-the-art social
+          and commercial landmarks. This is being engineered and developed
+          using world-class civil architecture and engineering tools.</p>
+        <p class="text-[#000000] mb-6">
+          Located in the heart of Zeta 1, this luxurious development spans over 6 acres and offers a range of 3BHK and
+          4BHK apartments designed to elevate your lifestyle.
+        </p>
+
+        <!-- Buttons Section -->
+        <div class="flex space-x-4">
+          <a href="#" class="bg-[#F47920] text-white px-6 py-3 rounded-lg font-semibold hover:bg-yellow-600 transition">
+            Schedule Appointment
+          </a>
+          <a href="#" class="bg-[#991B1E] text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-900 transition">
+            Download Specification
+          </a>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Floor plan $ details  -->
-    <section id="floorplan" class="floorplan  max-w-7xl mx-auto p-4 "  data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="500" >
-      <div class="text-center my-4">
-        <h1 class="text-2xl font-bold text-[#000000]">FLOOR PLAN & DETAILS</h1>
+  <!-- Amenities Section -->
+  <section class="phone_view bg-white py-12">
+    <div class="container mx-auto grid grid-cols-1 sm:grid-cols-4 md:grid-cols-6 gap-6 text-center">
+      <div class="space-y-2 py-2 border-solid border-[1px] border-[#000000] rounded-md">
+        <i class="fa-solid fa-person-swimming text-4xl text-[#991B1E]"></i>
+        <p class="text-sm font-semibold text-[#000000]">Swimming Pool</p>
+      </div>
+      <div class="space-y-2   py-2 border-solid border-[1px] border-[#000000] rounded-md">
+        <i class="fa-solid fa-fire-extinguisher text-4xl text-[#991B1E]"></i>
+        <p class="text-sm font-semibold text-[#000000]">Fire Systems</p>
+      </div>
+      <div class="space-y-2  py-2 border-solid border-[1px] border-[#000000] rounded-md">
+        <i class="fa-solid fa-play text-4xl text-[#991B1E]"></i>
+        <p class="text-sm font-semibold text-[#000000]">Play Area</p>
+      </div>
+      <div class="space-y-2  py-2 border-solid border-[1px] border-[#000000] rounded-md">
+        <i class="fa-solid fa-house-user text-4xl text-[#991B1E]"></i>
+        <p class="text-sm font-semibold text-[#000000]">Club House</p>
+      </div>
+      <div class="space-y-2  py-2 border-solid border-[1px] border-[#000000] rounded-md">
+        <i class="fa-solid fa-boxes-packing text-4xl text-[#991B1E]"></i>
+        <p class="text-sm font-semibold text-[#000000]">Car Parking</p>
+      </div>
+      <div class="space-y-2  py-2 border-solid border-[1px] border-[#000000] rounded-md">
+        <i class="fa-solid fa-cart-shopping text-4xl text-[#991B1E]"></i>
+        <p class="text-sm font-semibold text-[#000000]">Retail Shops</p>
       </div>
 
-      <!-- Navigation Tabs -->
-      <div class="flex justify-center space-x-4 border-b mb-6 text-nowrap overflow-x-auto max-w-full">
-        <button
-          href="#"
-          class=" tab-button px-4 py-2 plans text-sm font-semibold text-[#be212f] border-b-2" data-tab="1"
-          >Floor Plan
-        </button>
-        
-        <button href="#" class=" tab-button px-4 py-2 plans text-sm font-semibold text-[#C71F2B] border-b-2 " data-tab="2">Location Map</button>
-        <button href="#" class=" tab-button px-4 py-2 plans text-sm font-semibold text-[#C71F2B] border-b-2 " data-tab="3">Site Plan</button>
-        <button href="#" class=" tab-button px-4 py-2 plans text-sm font-semibold text-[#C71F2B] border-b-2 " data-tab="4">Payment Plan</button>
-        <button href="#" class=" tab-button px-4 py-2 plans text-sm font-semibold text-[#C71F2B] border-b-2 " data-tab="5">Price List</button>
+      <div class="space-y-2  py-2 border-solid border-[1px] border-[#000000] rounded-md">
+        <i class="fa-solid fa-tower-cell text-4xl text-[#991B1E]"></i>
+        <p class="text-sm font-semibold  text-[#000000]">24/7 Power</p>
       </div>
-      <div class="tab-content">
-        <div id="tab-1" class="tab-pane hidden">
-          <div class="grid lg:grid-cols-4 sm:grid-cols-3 grid-cols-2  gap-4 ">
-            <a class="border-solid border-[1px] border-[#000000] rounded-md"
-               data-fancybox="gallery"
-               href="./image/floor-1.webp"
-               data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code"
-               >
-              <img class="rounded-md" src="./image/floor-1.webp"  alt="" />
-            </a>
-            <a class="border-solid border-[1px] border-[#000000] rounded-md"
-            data-fancybox="gallery"
-            href="./image/fl2.webp"
-            data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code"
-            >
-           <img class="rounded-md" src="./image/fl2.webp"  alt="" />
-           </a>
-           <a class="border-solid border-[1px] border-[#000000] rounded-md"
-           data-fancybox="gallery"
-           href="./image/fl3.webp"
-           data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code"
-           >
-          <img class="rounded-md" src="./image/fl3.webp"  alt="" />
+      <div class="space-y-2  py-2 border-solid border-[1px] border-[#000000] rounded-md">
+        <i class="fa-solid fa-cable-car text-4xl text-[#991B1E]"></i>
+        <p class="text-sm font-semibold  text-[#000000]">Lift(s)</p>
+      </div>
+
+    </div>
+  </section>
+  </section>
+
+  <!-- Highlights Section -->
+
+  <section class="minimal_hilight_img py-16 px-4 lg:px-24  bg-[#fefbe8] text-[#000]" data-aos="zoom-in-up"
+    data-aos-delay="500" data-aos-duration="500">
+    <div class="container mx-auto">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <!-- Image Section -->
+        <div>
+          <img src="./image/gallery-_WhatsApp Image 2023-08-25 at 3.25.29 PM.jpeg" alt="Building Image"
+            class=" rounded-lg shadow-lg w-[700px] h-[430px]" />
+        </div>
+
+        <!-- Highlights Text Section -->
+        <div class="space-y-4">
+          <h2 class="text-3xl font-bold text-[#991B1E]">HIGHLIGHTS</h2>
+          <hr class="w-12 border-yellow-500 mb-6" />
+
+          <!-- Highlight Items -->
+          <ul class="space-y-2 text-lg text-[#991B1E]">
+            <li class="flex items-center">
+              <span class="text-yellow-500 mr-2">✔</span> Luxurious
+              Residential Apartment
+            </li>
+            <li class="flex items-center">
+              <span class="text-yellow-500 mr-2">✔</span> Size 660 sq. ft -
+              1925 sq. ft.
+            </li>
+            <li class="flex items-center">
+              <span class="text-yellow-500 mr-2">✔</span> 27 Floors Apartment
+            </li>
+            <li class="flex items-center">
+              <span class="text-yellow-500 mr-2">✔</span> 24x7 tight security
+              with CCTV in the common area
+            </li>
+            <li class="flex items-center">
+              <span class="text-yellow-500 mr-2">✔</span> Elite Upper Urban
+              Surroundings
+            </li>
+            <li class="flex items-center">
+              <span class="text-yellow-500 mr-2">✔</span> Only 5 Minutes
+              Distance from Metro Station
+            </li>
+            <li class="flex items-center">
+              <span class="text-yellow-500 mr-2">✔</span> Fully-Loaded
+              Interior
+            </li>
+            <li class="flex items-center">
+              <span class="text-yellow-500 mr-2">✔</span> 2/3 BHK Spacious
+              Apartments
+            </li>
+            <li class="flex items-center">
+              <span class="text-yellow-500 mr-2">✔</span> At Prime Location
+              Greater Noida
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Floor plan $ details  -->
+  <section id="floorplan" class="floorplan  max-w-7xl mx-auto p-4 " data-aos="zoom-in-up" data-aos-delay="500"
+    data-aos-duration="500">
+    <div class="text-center my-4">
+      <h1 class="text-2xl font-bold text-[#000000]">FLOOR PLAN & DETAILS</h1>
+    </div>
+
+    <!-- Navigation Tabs -->
+    <div class="flex justify-center space-x-4 border-b mb-6 text-nowrap overflow-x-auto max-w-full">
+      <button href="#" class=" tab-button px-4 py-2 plans text-sm font-semibold text-[#be212f] border-b-2"
+        data-tab="1">Floor Plan
+      </button>
+
+      <button href="#" class=" tab-button px-4 py-2 plans text-sm font-semibold text-[#C71F2B] border-b-2 "
+        data-tab="2">Location Map</button>
+      <button href="#" class=" tab-button px-4 py-2 plans text-sm font-semibold text-[#C71F2B] border-b-2 "
+        data-tab="3">Site Plan</button>
+      <button href="#" class=" tab-button px-4 py-2 plans text-sm font-semibold text-[#C71F2B] border-b-2 "
+        data-tab="4">Payment Plan</button>
+      <button href="#" class=" tab-button px-4 py-2 plans text-sm font-semibold text-[#C71F2B] border-b-2 "
+        data-tab="5">Price List</button>
+    </div>
+    <div class="tab-content">
+      <div id="tab-1" class="tab-pane hidden">
+        <div class="grid lg:grid-cols-4 sm:grid-cols-3 grid-cols-2  gap-4 ">
+          <a class="border-solid border-[1px] border-[#000000] rounded-md" data-fancybox="gallery"
+            href="./image/floor-1.webp"
+            data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code">
+            <img class="rounded-md" src="./image/floor-1.webp" alt="" />
           </a>
-          <a class="border-solid border-[1px] border-[#000000] rounded-md"
-          data-fancybox="gallery"
-          href="./image/fl4.webp"
-          data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code"
-          >
-         <img class="rounded-md" src="./image/fl4.webp"  alt="" />
-        </a>
-        <a class="border-solid border-[1px] border-[#000000] rounded-md"
-        data-fancybox="gallery"
-        href="./image/fl5.webp"
-        data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code"
-        >
-       <img class="rounded-md" src="./image/fl5.webp"  alt="" />
-        </a>
-        <a class="border-solid border-[1px] border-[#000000] rounded-md"
-        data-fancybox="gallery"
-        href="./image/fl6.webp"
-        data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code"
-        >
-       <img class="rounded-md" src="./image/fl6.webp"  alt="" />
-     </a>
-     <a class="border-solid border-[1px] border-[#000000] rounded-md"
-        data-fancybox="gallery"
-     href="./image/fl7.webp"
-     data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code"
-     >
-    <img class="rounded-md" src="./image/fl7.webp"  alt="" />
-     </a>
-          </div>
+          <a class="border-solid border-[1px] border-[#000000] rounded-md" data-fancybox="gallery"
+            href="./image/fl2.webp"
+            data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code">
+            <img class="rounded-md" src="./image/fl2.webp" alt="" />
+          </a>
+          <a class="border-solid border-[1px] border-[#000000] rounded-md" data-fancybox="gallery"
+            href="./image/fl3.webp"
+            data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code">
+            <img class="rounded-md" src="./image/fl3.webp" alt="" />
+          </a>
+          <a class="border-solid border-[1px] border-[#000000] rounded-md" data-fancybox="gallery"
+            href="./image/fl4.webp"
+            data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code">
+            <img class="rounded-md" src="./image/fl4.webp" alt="" />
+          </a>
+          <a class="border-solid border-[1px] border-[#000000] rounded-md" data-fancybox="gallery"
+            href="./image/fl5.webp"
+            data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code">
+            <img class="rounded-md" src="./image/fl5.webp" alt="" />
+          </a>
+          <a class="border-solid border-[1px] border-[#000000] rounded-md" data-fancybox="gallery"
+            href="./image/fl6.webp"
+            data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code">
+            <img class="rounded-md" src="./image/fl6.webp" alt="" />
+          </a>
+          <a class="border-solid border-[1px] border-[#000000] rounded-md" data-fancybox="gallery"
+            href="./image/fl7.webp"
+            data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code">
+            <img class="rounded-md" src="./image/fl7.webp" alt="" />
+          </a>
+        </div>
       </div>
       <div id="tab-2" class="tab-pane hidden mx-auto">
-        
-        <figure class="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 mx-auto border-solid border-[1px] border-[#C71F2B] rounded-md">
+
+        <figure
+          class="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 mx-auto border-solid border-[1px] border-[#C71F2B] rounded-md">
           <a href="#">
-          <img class="rounded-lg rounded-md" src="./image/location-map.webp" alt="image description">
+            <img class="rounded-lg rounded-md" src="./image/location-map.webp" alt="image description">
           </a>
-       <figcaption class="absolute px-4 text-lg text-white bottom-6">
-          <p>Do you want to get notified when a new component is added to Flowbite?</p>
-       </figcaption>
+          <figcaption class="absolute px-4 text-lg text-white bottom-6">
+            <p>Do you want to get notified when a new component is added to Flowbite?</p>
+          </figcaption>
         </figure>
 
       </div>
       <div id="tab-3" class="tab-pane hidden">
-        <figure class="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 mx-auto border-solid border-[1px] border-[#C71F2B] rounded-md">
+        <figure
+          class="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 mx-auto border-solid border-[1px] border-[#C71F2B] rounded-md">
           <a href="#">
-          <img class="rounded-lg rounded-md" src="./image/site-plan.webp" alt="image description">
+            <img class="rounded-lg rounded-md" src="./image/site-plan.webp" alt="image description">
           </a>
-       <figcaption class="absolute px-4 text-lg text-white bottom-6">
-          <p>Do you want to get notified when a new component is added to Flowbite?</p>
-       </figcaption>
+          <figcaption class="absolute px-4 text-lg text-white bottom-6">
+            <p>Do you want to get notified when a new component is added to Flowbite?</p>
+          </figcaption>
         </figure>
       </div>
       <div id="tab-4" class="tab-pane hidden">
-        <figure class="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 mx-auto border-solid border-[1px] border-[#C71F2B] rounded-md">
+        <figure
+          class="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 mx-auto border-solid border-[1px] border-[#C71F2B] rounded-md">
           <a href="#">
-          <img class="rounded-lg rounded-md" src="./image/payment-plan.webp" alt="image description">
+            <img class="rounded-lg rounded-md" src="./image/payment-plan.webp" alt="image description">
           </a>
-       <figcaption class="absolute px-4 text-lg text-white bottom-6">
-          <p>Do you want to get notified when a new component is added to Flowbite?</p>
-       </figcaption>
+          <figcaption class="absolute px-4 text-lg text-white bottom-6">
+            <p>Do you want to get notified when a new component is added to Flowbite?</p>
+          </figcaption>
         </figure>
-    </div>
-    <div id="tab-5" class="tab-pane hidden">
-      <figure class="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 mx-auto border-solid border-[1px] border-[#C71F2B] rounded-md">
-        <a href="#">
-        <img class="rounded-lg rounded-md" src="./image/price-list.webp" alt="image description">
-        </a>
-     <figcaption class="absolute px-4 text-lg text-white bottom-6">
-        <p>Do you want to get notified when a new component is added to Flowbite?</p>
-     </figcaption>
-      </figure>
-    </div>
       </div>
-
-    
-       
-     
-
-<div id="slider-container">
-  <h1 class="grid place-content-center text-2xl py-5 text-[#000000] hover:text-[black] font-bold">PROJECT GALLERY </h1>
-  <div class="w-16 h-1 bg-[#be212f] mx-auto mb-1"></div>
-	<div class="slider">
-		<span><img src="./image/footer-image.jpg"></img></span>
-    <span><img src="./image/gallery_1WhatsApp Image 2023-08-25 at 3.25.26 PM.jpeg"></img></span>
-    <span><img src="./image/gallery_WhatsApp Image 2023-08-24 at 3.36.38 PM.jpeg"></img></span>
-    <span><img src="./image/gallery-_WhatsApp Image 2023-08-25 at 3.25.29 PM.jpeg"></img></span>
-    <span><img src="./image/1698969938781Migsun -Overview size - Roof.jpg"></img></span>
-    <span><img src="./image/1699241215696Vilasa - GYm  (539 X 405).jpg"></img></span>
-    <span><img src="./image/1699240887007My roof - Yoga Room (539 X 405).jpg"></img></span>
-    <span><img src="./image/gallery_--.jpeg"></img></span>
-    <span><img src="./image/gallery_2.jpeg"></img></span>
-	</div>
-</div>
-<section>
-    <!-- Main Section -->
-    <section id="EBrochure" class="brochure text-center p-8">
-      <!-- Title -->
-      <h2  class="text-3xl font-bold text-[#000000] mb-4">E-Brochure</h2>
-      <hr class="w-16 border-[#be212f] border-t-4 mx-auto mb-8">
-
-      <!-- Download Button -->
-      <div class="bg-white shadow-lg rounded-lg p-6 max-w-sm mx-auto border border-[#be212f]">
-          <img  src="./image/download-pdf.png " alt="PDF Icon" class="w-28 h-16 mx-auto mb-4">
-          <a href="your-brochure-link.pdf" download
-              class="bg-[#be212f] text-white font-bold px-8 py-3 rounded-full hover:bg-red-600 transition duration-300">
-              DOWNLOAD NOW
+      <div id="tab-5" class="tab-pane hidden">
+        <figure
+          class="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 mx-auto border-solid border-[1px] border-[#C71F2B] rounded-md">
+          <a href="#">
+            <img class="rounded-lg rounded-md" src="./image/price-list.webp" alt="image description">
           </a>
+          <figcaption class="absolute px-4 text-lg text-white bottom-6">
+            <p>Do you want to get notified when a new component is added to Flowbite?</p>
+          </figcaption>
+        </figure>
       </div>
+    </div>
+
+
+
+
+
+    <div id="slider-container">
+      <h1 class="grid place-content-center text-2xl py-5 text-[#000000] hover:text-[black] font-bold">PROJECT GALLERY
+      </h1>
+      <div class="w-16 h-1 bg-[#be212f] mx-auto mb-1"></div>
+      <div class="slider">
+        <span><img src="./image/footer-image.jpg"></img></span>
+        <span><img src="./image/gallery_1WhatsApp Image 2023-08-25 at 3.25.26 PM.jpeg"></img></span>
+        <span><img src="./image/gallery_WhatsApp Image 2023-08-24 at 3.36.38 PM.jpeg"></img></span>
+        <span><img src="./image/gallery-_WhatsApp Image 2023-08-25 at 3.25.29 PM.jpeg"></img></span>
+        <span><img src="./image/1698969938781Migsun -Overview size - Roof.jpg"></img></span>
+        <span><img src="./image/1699241215696Vilasa - GYm  (539 X 405).jpg"></img></span>
+        <span><img src="./image/1699240887007My roof - Yoga Room (539 X 405).jpg"></img></span>
+        <span><img src="./image/gallery_--.jpeg"></img></span>
+        <span><img src="./image/gallery_2.jpeg"></img></span>
+      </div>
+    </div>
+    <section>
+      <!-- Main Section -->
+      <section id="EBrochure" class="brochure text-center p-8">
+        <!-- Title -->
+        <h2 class="text-3xl font-bold text-[#000000] mb-4">E-Brochure</h2>
+        <hr class="w-16 border-[#be212f] border-t-4 mx-auto mb-8">
+
+        <!-- Download Button -->
+        <div class="bg-white shadow-lg rounded-lg p-6 max-w-sm mx-auto border border-[#be212f]">
+          <img src="./image/download-pdf.png " alt="PDF Icon" class="w-28 h-16 mx-auto mb-4">
+          <a href="your-brochure-link.pdf" download
+            class="bg-[#be212f] text-white font-bold px-8 py-3 rounded-full hover:bg-red-600 transition duration-300">
+            DOWNLOAD NOW
+          </a>
+        </div>
+      </section>
+    </section>
   </section>
-</section>
-    </section>
-    <!-- Section for Banks Loan -->
-    <section class="mx-auto banksloan p-6 bg-[#fefbe8] w-full"  data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="1000" >
-      <!-- Heading -->
-      <div class="text-center mb-8">
-        <h2 class="text-3xl font-bold">BANKS LOAN</h2>
-        <div class="w-16 h-1 bg-[#be212f] mx-auto mt-2"></div>
-      </div>
+  <!-- Section for Banks Loan -->
+  <section class="mx-auto banksloan p-6 bg-[#fefbe8] w-full" data-aos="zoom-in-up" data-aos-delay="500"
+    data-aos-duration="1000">
+    <!-- Heading -->
+    <div class="text-center mb-8">
+      <h2 class="text-3xl font-bold">BANKS LOAN</h2>
+      <div class="w-16 h-1 bg-[#be212f] mx-auto mt-2"></div>
+    </div>
 
-      <!-- Logos Grid -->
+    <!-- Logos Grid -->
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
+      <!-- Logo 1 -->
       <div
-        class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6"
-      >
-        <!-- Logo 1 -->
-        <div
-          class="bg-white p-4 rounded-lg shadow-lg flex items-center justify-center border-solid border-[1px] border-[#000000] rounded-md card"
-        >
-          <img
-            src="./image/hdfc.jpg"
-            alt="HDFC Home Loans"
-            class="h-16 object-contain "
-          />
-        </div>
-        <!-- Logo 2 -->
-        <div
-          class="bg-white p-4 rounded-lg shadow-lg flex items-center justify-center border-solid border-[1px] border-[#000000] rounded-md card"
-        >
-          <img
-            src="./image/icici.jpg"
-            alt="ICICI Home Loans"
-            class="h-16 object-contain"
-          />
-        </div>
-        <!-- Logo 3 -->
-        <div
-          class="bg-white p-4 rounded-lg shadow-lg flex items-center justify-center border-solid border-[1px] border-[#000000] rounded-md card"
-        >
-          <img
-            src="./image/iifl.jpg"
-            alt="IIFL Home Loans"
-            class="h-16 object-contain"
-          />
-        </div>
-        <!-- Logo 4 -->
-        <div
-          class="bg-white p-4 rounded-lg shadow-lg flex items-center justify-center border-solid border-[1px] border-[#000000] rounded-md card"
-        >
-          <img
-            src="./image/pnb.jpg"
-            alt="PNB Housing"
-            class="h-16 object-contain"
-          />
-        </div>
-        <!-- Logo 5 -->
-        <div
-          class="bg-white p-4 rounded-lg shadow-lg flex items-center justify-center border-solid border-[1px] border-[#000000] rounded-md card"
-        >
-          <img
-            src="./image/indiabulls.jpg"
-            alt="Indiabulls Home Loans"
-            class="h-16 object-contain"
-          />
-        </div>
-        <!-- Logo 6 -->
-        <div
-          class="bg-white p-4 rounded-lg shadow-lg flex items-center justify-center border-solid border-[1px] border-[#000000] rounded-md card"
-        >
-          <img
-            src="./image/dhfl.jpg"
-            alt="DHFL Home Loans"
-            class="h-16 object-contain"
-          />
-        </div>
+        class="bg-white p-4 rounded-lg shadow-lg flex items-center justify-center border-solid border-[1px] border-[#000000] rounded-md card">
+        <img src="./image/hdfc.jpg" alt="HDFC Home Loans" class="h-16 object-contain " />
       </div>
-    </section>
+      <!-- Logo 2 -->
+      <div
+        class="bg-white p-4 rounded-lg shadow-lg flex items-center justify-center border-solid border-[1px] border-[#000000] rounded-md card">
+        <img src="./image/icici.jpg" alt="ICICI Home Loans" class="h-16 object-contain" />
+      </div>
+      <!-- Logo 3 -->
+      <div
+        class="bg-white p-4 rounded-lg shadow-lg flex items-center justify-center border-solid border-[1px] border-[#000000] rounded-md card">
+        <img src="./image/iifl.jpg" alt="IIFL Home Loans" class="h-16 object-contain" />
+      </div>
+      <!-- Logo 4 -->
+      <div
+        class="bg-white p-4 rounded-lg shadow-lg flex items-center justify-center border-solid border-[1px] border-[#000000] rounded-md card">
+        <img src="./image/pnb.jpg" alt="PNB Housing" class="h-16 object-contain" />
+      </div>
+      <!-- Logo 5 -->
+      <div
+        class="bg-white p-4 rounded-lg shadow-lg flex items-center justify-center border-solid border-[1px] border-[#000000] rounded-md card">
+        <img src="./image/indiabulls.jpg" alt="Indiabulls Home Loans" class="h-16 object-contain" />
+      </div>
+      <!-- Logo 6 -->
+      <div
+        class="bg-white p-4 rounded-lg shadow-lg flex items-center justify-center border-solid border-[1px] border-[#000000] rounded-md card">
+        <img src="./image/dhfl.jpg" alt="DHFL Home Loans" class="h-16 object-contain" />
+      </div>
+    </div>
+  </section>
 
-    <!-- Footer  -->
+  <!-- Footer  -->
 
-    
-    
-    
-    
-    <!-- Footer Section -->
-    <!--space-y-6  backdrop-blur-sm bg-white/25 -->
-    <footer class=" text-black py-10"  data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="1000" >
+
+
+
+
+  <!-- Footer Section -->
+  <!--space-y-6  backdrop-blur-sm bg-white/25 -->
+  <footer class=" text-black py-10" data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="1000">
     <footer class="bg-footer text-white py-16 ">
-        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
-            <!-- Corporate Links Section -->
-            <div>
-                <h3 class="text-xl font-semibold mb-4">Corporate Links:</h3>
-                <h1 class="border-solid border-b-2 border-white w-40 mb-4"></h1>
-                <ul class="flex justify-center flex-col gap-4">
-                    <li><a href="#home" class="hover:underline">Home</a></li>
-                    <li><a href="#floorplan" class="hover:underline">FLOOR PLAN & DETAILS</a></li>
-                    <li><a href="#slider-container" class="hover:underline">Gallery</a></li>
-                    <li><a href="#" class="hover:underline">SPECIFICATIONS </a></li>
-                    <li><a href="#EBrochure" class="hover:underline">E-BROCHURE</a></li>
-                </ul>
-            </div>
+      <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Corporate Links Section -->
+        <div>
+          <h3 class="text-xl font-semibold mb-4">Corporate Links:</h3>
+          <h1 class="border-solid border-b-2 border-white w-40 mb-4"></h1>
+          <ul class="flex justify-center flex-col gap-4">
+            <li><a href="#home" class="hover:underline">Home</a></li>
+            <li><a href="#floorplan" class="hover:underline">FLOOR PLAN & DETAILS</a></li>
+            <li><a href="#slider-container" class="hover:underline">Gallery</a></li>
+            <li><a href="#" class="hover:underline">SPECIFICATIONS </a></li>
+            <li><a href="#EBrochure" class="hover:underline">E-BROCHURE</a></li>
+          </ul>
+        </div>
 
-            <!-- Corporate Office Section -->
-            <div >
-              <h2 class="font-bold mb-4">Office:</h2>
-              <h1 class="border-solid border-b-2 border-white w-40 mb-4"></h1>
-              <div class="flex justify-center flex-col gap-4">
-                <p> Misgun vilaasa <br /> ETA 2 greater Noida</p>
-              <p class="mt-2">RERA No.: UPRERAAGT10129</p>
-              <p>PAN No.: .....................!</p>
-              </div>
-              
-  
-             
-            </div>
+        <!-- Corporate Office Section -->
+        <div>
+          <h2 class="font-bold mb-4">Office:</h2>
+          <h1 class="border-solid border-b-2 border-white w-40 mb-4"></h1>
+          <div class="flex justify-center flex-col gap-4">
+            <p> Misgun vilaasa <br /> ETA 2 greater Noida</p>
+            <p class="mt-2">RERA No.: UPRERAAGT10129</p>
+            <p>PAN No.: .....................!</p>
+          </div>
 
-            <!-- Branch Office & Contact Section -->
-            <div>
-                <h3 class="text-xl font-semibold mb-4">Branch Office:</h3>
-                <h1 class="border-solid border-b-2 border-white w-40 mb-4"></h1>
 
-                <div class="flex justify-center flex-col gap-4">
-                  <p>Office - Misgun vilaasa  ETA 2 greater Noida</p>
-                <!-- <p>Unit No 1106, 11th floor, Tower 1 DLF Corporate Greens, Sector - 74A Gurugram - 122004</p> -->
 
-                <h3 class="text-xl font-semibold mt-4">Contact Us:</h3>
-                <p>Phone: +91-9953-213-254 </p> 
-                <p>Phone: +91-8826-301-810 </p> 
-                <p>santoshs.rajpoot@gmail.com</p>
-                </div>
+        </div>
 
-                <!-- Social Links -->
-                <!-- <div class="mt-4">
+        <!-- Branch Office & Contact Section -->
+        <div>
+          <h3 class="text-xl font-semibold mb-4">Branch Office:</h3>
+          <h1 class="border-solid border-b-2 border-white w-40 mb-4"></h1>
+
+          <div class="flex justify-center flex-col gap-4">
+            <p>Office - Misgun vilaasa ETA 2 greater Noida</p>
+            <!-- <p>Unit No 1106, 11th floor, Tower 1 DLF Corporate Greens, Sector - 74A Gurugram - 122004</p> -->
+
+            <h3 class="text-xl font-semibold mt-4">Contact Us:</h3>
+            <p>Phone: +91-9953-213-254 </p>
+            <p>Phone: +91-8826-301-810 </p>
+            <p>santoshs.rajpoot@gmail.com</p>
+          </div>
+
+          <!-- Social Links -->
+          <!-- <div class="mt-4">
                     <a href="#" class="mr-2 hover:text-[#FFD100]"><i class="fab fa-facebook"></i></a>
                     <a href="#" class="mr-2 hover:text-[#FFD100]"><i class="fab fa-twitter"></i></a>
                     <a href="#" class="mr-2 hover:text-[#FFD100]"><i class="fab fa-linkedin"></i></a>
                     <a href="#" class="hover:text-[#FFD100]"><i class="fab fa-youtube"></i></a>
                 </div> -->
-            </div>
         </div>
+      </div>
 
-        <div class="mt-8 text-center text-xs text-gray-400">
-            <p>&copy; 2013 - 2024 Daps Software. All Rights Reserved.</p>
-            <p>Note: The offers as mentioned in the advertisement are as
-               intimated by the developer <a class="text-[#FFD100]" href="https://www.dapssoftware.com/#:~:text=DAPS%20was%20founded%20in%202013%20with%20a%20mission">Daps Software</a></p>
-        </div>
+      <div class="mt-8 text-center text-xs text-gray-400">
+        <p>&copy; 2013 - 2024 Daps Software. All Rights Reserved.</p>
+        <p>Note: The offers as mentioned in the advertisement are as
+          intimated by the developer <a class="text-[#FFD100]"
+            href="https://www.dapssoftware.com/#:~:text=DAPS%20was%20founded%20in%202013%20with%20a%20mission">Daps
+            Software</a></p>
+      </div>
 
-        <div class="mt-10 text-center contact">
-          <div class="mt-10 ">
-            <button
-              class="  bg-green-600 hover:bg-green-500 text-white px-4 py-2 rounded-lg mr-2 "
-              >
-              <!-- < href="" target="_blank">WhatsApp</a> -->
-              <a href="https://wa.me/9792908929?text=Hello%20there!"  target="_blank">WhatsApp</a>
-              
-              
-            </button>
-            <button 
-              class="bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-lg"
-            > <a href="tel:+919953213254"> Call Now</a>
-            </button>
-          </div>
+      <div class="mt-10 text-center contact">
+        <div class="mt-10 ">
+          <button class="  bg-green-600 hover:bg-green-500 text-white px-4 py-2 rounded-lg mr-2 ">
+            <!-- < href="" target="_blank">WhatsApp</a> -->
+            <a href="https://wa.me/9792908929?text=Hello%20there!" target="_blank">WhatsApp</a>
+
+
+          </button>
+          <button class="bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-lg"> <a href="tel:+919953213254">
+              Call Now</a>
+          </button>
         </div>
+      </div>
     </footer>
 
 </body>
 
 </html>
 
-      
-   
-
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
-    <script src="./aap.js"></script>
-    <script>
-      Fancybox.bind('[data-fancybox="gallery"]', {
-           
-         });  
-      const menuBtn = document.getElementById("menu-btn");
-      const mobileMenu = document.getElementById("mobile-menu");
-
-      menuBtn.addEventListener("click", () => {
-        mobileMenu.classList.toggle("hidden");
-      });
 
 
-      // aos library 
-      AOS.init();
-    </script>
-  </body>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+<script src="./aap.js"></script>
+<script>
+  Fancybox.bind('[data-fancybox="gallery"]', {
+
+  });
+  const menuBtn = document.getElementById("menu-btn");
+  const mobileMenu = document.getElementById("mobile-menu");
+
+  menuBtn.addEventListener("click", () => {
+    mobileMenu.classList.toggle("hidden");
+  });
+
+
+  // aos library 
+  AOS.init();
+</script>
+</body>
+
 </html>

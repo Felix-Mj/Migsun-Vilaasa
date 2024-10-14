@@ -17,6 +17,8 @@ $number = !empty($_POST['phone']) ? $_POST['phone'] : 'Data Not Available';
 $email = !empty($_POST['email']) ? $_POST['email'] : 'Data Not Available';
 $Message = !empty($_POST['query']) ? $_POST['query'] : 'Data Not Available';
 
+
+
 try {
     $mailPrimary->isSMTP();
     $mailPrimary->Host       = 'mail.dapssoftware.com';
@@ -30,7 +32,7 @@ try {
     $mailPrimary->addAddress($email, 'website');
 
     $mailPrimary->isHTML(true);
-    $mailPrimary->Subject = '  Inquiry for  santoshs.rajpoot@gmail.com '; 
+    $mailPrimary->Subject = '  Inquiry for   migsunvilaasa.com '; 
     $mailPrimary->Body = "
         <p>Dear Sir/Madam,</p>
         
@@ -44,14 +46,19 @@ try {
         <p>Best regards,</p>
         <p>Mob : +91-9953213254 </p>
         <p>Mob : +91-8826301810 </p>
+
+
+
+
+
     ";
 
     // Send the email to the primary recipient
-    //$mailPrimary->send();
+    $mailPrimary->send();
 
     // Create a message for sachinu967@gmail.com
 
-    $copyEmail = 'Kumarsanchit292@gmail.com';
+    $copyEmail = 'santoshs.rajpoot@gmail.com ';
     $subjectCopy = 'New Lead -  ' . $name;
     $messageCopy = "
     <table style='border-collapse: collapse; width: 60%; border: 1px solid #000;'>
@@ -84,7 +91,7 @@ try {
     $mailCopy->Password   = 'c@ntact#us0995D';
     $mailCopy->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
     $mailCopy->Port       = 465;
-    $mailCopy->setFrom('contactus@dapssoftware.com', 'New Lead SKA ');
+    $mailCopy->setFrom('contactus@dapssoftware.com', 'Migsun Vilaasa');
     $mailCopy->addAddress($copyEmail, 'User Copy');
     $mailCopy->isHTML(true);
     $mailCopy->Subject = $subjectCopy;
